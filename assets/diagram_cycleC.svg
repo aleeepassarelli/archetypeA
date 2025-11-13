@@ -1,90 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Diagrama Ciclo C - Triângulo Epistêmico">
-  <title>Ciclo Causal Φ³ — Triângulo Epistêmico (Fenomenologia / Geometria / Causalidade)</title>
-  <defs>
-    <linearGradient id="bgGrad" x1="0" x2="1">
-      <stop offset="0" stop-color="#f6f7f9"/>
-      <stop offset="1" stop-color="#ffffff"/>
-    </linearGradient>
-
-    <linearGradient id="bladeGrad" x1="0" x2="1">
-      <stop offset="0%" stop-color="#00c7ff"/>
-      <stop offset="100%" stop-color="#00a3b8"/>
-    </linearGradient>
-
-    <marker id="arrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L14,7 L0,14 z" fill="#00a3b8" />
-    </marker>
-
-    <style type="text/css"><![CDATA[
-      .bgPanel { fill: url(#bgGrad); }
-      .card { fill: #ffffff; stroke: #e5e7eb; stroke-width: 0.5; rx:14; opacity:0.8; }
-      .nodeFill { fill: url(#bladeGrad); }
-      .nodeText { font-family: Inter, "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial; fill:#042028; font-weight:700; font-size:16px; }
-      .label { font-family: Inter, "Segoe UI", system-ui; fill:#07414a; font-size:13px; font-weight:600; }
-      .desc { font-family: Inter, "Segoe UI", system-ui; fill:#376b72; font-size:11.5px; }
-      .explain { font-family: Inter, "Segoe UI", system-ui; fill:#2f5256; font-size:12px; }
-      .connector { stroke:#00a3b8; stroke-width:3; stroke-linecap:round; stroke-linejoin:round; fill:none; marker-end:url(#arrow); opacity:0.9; }
-      .muted { fill:#6b7c7e; font-size:11px; }
-    ]]></style>
-  </defs>
-
-  <!-- Fundo -->
-  <rect x="0" y="0" width="800" height="600" fill="url(#bgGrad)"/>
-
-  <!-- Painel central -->
-  <rect x="40" y="40" width="720" height="520" rx="20" class="card"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="100%" height="100%" fill="#f8f8fb"/>
 
   <!-- Título -->
-  <g transform="translate(80,88)">
-    <text class="nodeText">ARQUÉTIPO A — Estética Operacional</text>
-    <text class="desc" y="26">Φ³ — Causalidade Estrutural · Triângulo Epistêmico</text>
-  </g>
+  <text x="400" y="60" text-anchor="middle" font-size="22" font-family="sans-serif" fill="#333">
+    Φ³ — Causalidade Estrutural
+  </text>
+  <text x="400" y="90" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#666">
+    Ciclo Epistêmico — Fenomenologia, Geometria, Estrutura
+  </text>
 
-  <!-- Φ¹ -->
-  <g transform="translate(400,160)">
-    <rect x="-100" y="-24" width="200" height="48" rx="10" fill="url(#bladeGrad)" opacity="0.95"/>
-    <text class="nodeText" x="0" y="10" text-anchor="middle">Φ¹ — Fenomenologia Computacional</text>
-    <text class="desc" x="0" y="60" text-anchor="middle">Onde a informação é percebida — sinais & atenção</text>
-  </g>
+  <!-- Triângulo Epistêmico -->
+  <polygon points="400,160 260,420 540,420" fill="#f4f4f6" stroke="#aaa" stroke-width="1.5"/>
 
-  <!-- Φ² -->
-  <g transform="translate(600,380)">
-    <rect x="-90" y="-34" width="180" height="68" rx="10" fill="url(#bladeGrad)" opacity="0.95"/>
-    <text class="nodeText" x="0" y="10" text-anchor="middle">Φ² — Geometria Latente</text>
-    <text class="desc" x="0" y="60" text-anchor="middle">Como o significado é estruturado — vetores & topologias</text>
-  </g>
+  <!-- Vértices -->
+  <circle cx="400" cy="160" r="6" fill="#888"/>
+  <circle cx="260" cy="420" r="6" fill="#888"/>
+  <circle cx="540" cy="420" r="6" fill="#888"/>
 
-  <!-- Φ³ -->
-  <g transform="translate(200,380)">
-    <rect x="-90" y="-34" width="180" height="68" rx="10" fill="url(#bladeGrad)" opacity="0.95"/>
-    <text class="nodeText" x="0" y="10" text-anchor="middle">Φ³ — Causalidade Estrutural</text>
-    <text class="desc" x="0" y="60" text-anchor="middle">Por que decisões emergem — mediadores & intervenções</text>
-  </g>
+  <!-- Rótulos -->
+  <text x="400" y="140" text-anchor="middle" font-size="14" fill="#333" font-family="sans-serif">Φ¹ — Fenomenologia Computacional</text>
+  <text x="180" y="440" text-anchor="start" font-size="14" fill="#333" font-family="sans-serif">Φ² — Geometria Latente</text>
+  <text x="620" y="440" text-anchor="end" font-size="14" fill="#333" font-family="sans-serif">Φ³ — Causalidade Estrutural</text>
 
   <!-- Conexões -->
-  <path class="connector" d="M460,190 C520,220 560,270 590,320" />
-  <text class="explain" x="525" y="250" text-anchor="middle">Fluxo: percepção → estrutura</text>
+  <path d="M400 165 L270 415" stroke="#bbb" stroke-width="1.5" fill="none" marker-end="url(#arrow)" />
+  <path d="M530 415 L400 165" stroke="#bbb" stroke-width="1.5" fill="none" marker-end="url(#arrow)" />
+  <path d="M270 415 L530 415" stroke="#bbb" stroke-width="1.5" fill="none" marker-end="url(#arrow)" />
 
-  <path class="connector" d="M520,360 C460,400 360,420 300,380" />
-  <text class="explain" x="410" y="395" text-anchor="middle">Fluxo: representação → causalidade</text>
+  <!-- Setas -->
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#bbb"/>
+    </marker>
+  </defs>
 
-  <path class="connector" d="M260,330 C320,260 340,210 380,190" />
-  <text class="explain" x="320" y="250" text-anchor="middle">Fluxo: intervenção → comportamento</text>
+  <!-- Textos de fluxo -->
+  <text x="315" y="280" text-anchor="middle" font-size="12" fill="#666" font-family="sans-serif">
+    percepção → estrutura
+  </text>
+  <text x="485" y="280" text-anchor="middle" font-size="12" fill="#666" font-family="sans-serif">
+    representação → causalidade
+  </text>
+  <text x="400" y="445" text-anchor="middle" font-size="12" fill="#666" font-family="sans-serif">
+    intervenção → comportamento
+  </text>
 
   <!-- Legenda -->
-  <g transform="translate(80,480)">
-    <rect x="0" y="0" width="640" height="84" rx="10" fill="#f3f4f6"/>
-    <text class="muted" x="14" y="22">Triângulo Epistêmico — leitura rápida</text>
-    <text class="muted" x="14" y="42">Φ¹ (Onde?) — identifica pontos de atenção e sinais.</text>
-    <text class="muted" x="14" y="62">Φ² (Como?) — mapeia geometria semântica e vetores latentes.</text>
-    <text class="muted" x="420" y="42">Φ³ (Por quê?) — quantifica causalidade estrutural.</text>
-    <text class="muted" x="420" y="62">Use Score(P) + EAT-REx para validação empírica.</text>
-  </g>
+  <rect x="60" y="480" width="680" height="80" rx="8" fill="#f0f0f4" stroke="#ddd"/>
+  <text x="80" y="505" font-size="13" font-family="sans-serif" fill="#333">Triângulo Epistêmico → leitura rápida</text>
+  <text x="80" y="525" font-size="13" font-family="sans-serif" fill="#333">(Onde?) identifica pontos de atenção e sinais</text>
+  <text x="80" y="545" font-size="13" font-family="sans-serif" fill="#333">(Como?) mapeia geometria semântica e vetores latentes</text>
+  <text x="80" y="565" font-size="13" font-family="sans-serif" fill="#333">(Por quê?) quantifica causalidade estrutural</text>
 
-  <!-- Marca -->
-  <g transform="translate(680,520)">
-    <rect x="0" y="0" width="90" height="40" rx="8" fill="#e0f7fb"/>
-    <text class="muted" x="46" y="24" text-anchor="middle">SLE · v1.1</text>
-  </g>
+  <!-- Selo -->
+  <rect x="680" y="555" width="60" height="24" rx="6" fill="#eee" stroke="#ccc"/>
+  <text x="710" y="572" text-anchor="middle" font-size="12" font-family="sans-serif" fill="#555">SLE • v1.1</text>
 </svg>
