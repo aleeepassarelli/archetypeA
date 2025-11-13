@@ -16,10 +16,17 @@
 ---
 ## 📚 **ÍNDICE**
 
-| 🔹 [Introdução](#-1-introdução) | 🔹 [Conceito](#-2-conceito) | 🔹 [Objetivo](#-3-objetivo) |
-|--------------------------------|------------------------------|-----------------------------|
-| 🧩 [Arquitetura](#-4-arquitetura-do-arquétipo-a) | 🧠 [Taxonomia das Classes](#-5-taxonomia-das-classes) | 🧮 [Formalização Algébrica](#-6-formalização-algébrica) |
-| 🔄 [Modo de Cognição](#-7-modo-de-cognição--cinto-de-ciclos) | 🖼️ [Imagens & Visualizações](#-8-imagens--visualizações) | 🪶 [Créditos & Licença](#-9-créditos--licença) |
+[![Introdução](https://img.shields.io/badge/01-Introdução-00a3b8?style=for-the-badge&labelColor=f5f7fa)](#-1-introdução)
+[![Conceito](https://img.shields.io/badge/02-Conceito-00a3b8?style=for-the-badge&labelColor=f5f7fa)](#-2-conceito)
+[![Objetivo](https://img.shields.io/badge/03-Objetivo-00a3b8?style=for-the-badge&labelColor=f5f7fa)](#-3-objetivo)
+
+[![Arquitetura](https://img.shields.io/badge/04-Arquitetura_A-00a3b8?style=for-the-badge&labelColor=f5f7fa)](#-4-arquitetura-do-arquétipo-a)
+[![Taxonomia](https://img.shields.io/badge/05-Taxonomia-00a3b8?style=for-the-badge&labelColor=f5f7fa)](#-5-taxonomia-das-classes)
+[![Formalização](https://img.shields.io/badge/06-Formalização-00a3b8?style=for-the-badge&labelColor=f5f7fa)](#-6-formalização-algébrica)
+
+[![Cognição](https://img.shields.io/badge/07-Cognição-00a3b8?style=for-the-badge&labelColor=f5f7fa)](#-7-modo-de-cognição--cinto-de-ciclos)
+[![Visualizações](https://img.shields.io/badge/08-Visualizações-00a3b8?style=for-the-badge&labelColor=f5f7fa)](#-8-imagens--visualizações)
+[![Créditos](https://img.shields.io/badge/09-Créditos-00a3b8?style=for-the-badge&labelColor=f5f7fa)](#-9-créditos--licença)
 
 ---
 
