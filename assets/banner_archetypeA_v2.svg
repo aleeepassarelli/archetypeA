@@ -70,7 +70,7 @@
   <!-- Selo / version badge no canto direito do painel -->
   <g transform="translate(1020,70)">
     <rect x="0" y="0" width="140" height="34" rx="8" fill="#e6fbff" stroke="rgba(0,163,184,0.08)"/>
-    <text x="70" y="42" text-anchor="middle" font-family="Inter, system-ui, Arial" font-size="12" fill="#026b70" font-weight="700">v1.1 · CC BY-SA</text>
+    <text x="70" y="22" text-anchor="middle" font-family="Inter, system-ui, Arial" font-size="12" fill="#026b70" font-weight="700">v1.1 · CC BY-SA</text>
   </g>
 
   <!-- Small decorative accent (right) -->
