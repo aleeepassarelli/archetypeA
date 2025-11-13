@@ -179,9 +179,9 @@ Exemplo de diagrama:
 > “Entre a estrutura e o caos, há sempre uma forma que pensa.”  
 > — *Manifesto do Arquétipo A*
 
----
+
 <p align="center">
   <img src="assets/banner_archetypeA_v2.svg" alt="Banner do Arquétipo A v2" width="800"/>
 </p>
----
+
 
