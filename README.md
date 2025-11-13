@@ -169,15 +169,14 @@ Exemplo de diagrama:
 </p>
 
 ---
-
 ## 📜 **9. CRÉDITOS & LICENÇA**
 
-**Autor:** [Aledev](https://github.com/Aledev)  
-**Licença:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)  
-**Repositório:** [github.com/Aledev/Archetype-A](https://github.com/Aledev/Archetype-A)
+**Autor:** [Aledev](https://github.com/aleeepassarelli)  
+**Licença:** [MIT](https://creativecommons.org/licenses/mit/)  
+**Repositório:** [github.com/Aledev/Archetype-A](https://github.com/aleeepassarelli/archetypeA)
 
 > “Entre a estrutura e o caos, há sempre uma forma que pensa.”  
-> — *Manifesto do Arquétipo A*
+> — *Manifesto do Arquétipo A · Estética Operacional*
 
 
 <p align="center">
