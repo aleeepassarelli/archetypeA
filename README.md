@@ -163,7 +163,7 @@ assets/
 Exemplo de diagrama:
 
 <p align="center">
-  <img src="assets/diagram_cycleC.png" alt="Diagrama Ciclo C" width="600"/>
+  <img src="assets/diagram_cycleC.svg" alt="Ciclo Causal — Triângulo Epistêmico (Φ¹ Φ² Φ³)" width="80%"/>
 </p>
 
 ---
