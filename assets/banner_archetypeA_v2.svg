@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1280" height="360" viewBox="0 0 1280 360"
+     role="img" aria-label="ARQUÉTIPO A — Estética Operacional. Φ³ — Causalidade Estrutural">
+  <title>ARQUÉTIPO A — Estética Operacional (banner)</title>
+  <desc>Banner estilizado fosco-translúcido para README (versão 1.1 Estética Operacional)</desc>
+
+  <!-- Defs: gradientes e estilos -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f6f8fa"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+
+    <linearGradient id="bladeGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00d9ff"/>
+      <stop offset="100%" stop-color="#00a3b8"/>
+    </linearGradient>
+
+    <linearGradient id="panelLight" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.92)"/>
+      <stop offset="100%" stop-color="rgba(245,246,247,0.95)"/>
+    </linearGradient>
+
+    <style type="text/css"><![CDATA[
+      .panel { rx: 18; }
+      .title { font-family: Inter, "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial; font-weight:800; font-size:48px; fill:#042028; letter-spacing:0.5px; }
+      .subtitle { font-family: Inter, "Segoe UI", system-ui; font-size:14px; fill:#376b72; }
+      .meta { font-family: Inter, "Segoe UI", system-ui; font-size:12px; fill:#6b7c7e; }
+      .blade { opacity:0.95; }
+      .accentBox { fill:#00b3c4; opacity:0.95; }
+    ]]></style>
+  </defs>
+
+  <!-- Fundo geral (para ambientes claros) -->
+  <rect x="0" y="0" width="1280" height="360" fill="url(#bgGrad)"/>
+
+  <!-- Painel central translúcido (fosco) -->
+  <g transform="translate(40,36)">
+    <rect x="0" y="0" width="1200" height="288" rx="20"
+          fill="url(#panelLight)" stroke="rgba(10,20,22,0.04)" stroke-width="1"/>
+    <!-- leve placa fosca: sem filtros para compatibilidade GitHub -->
+    <rect x="0" y="0" width="1200" height="288" rx="20" fill="rgba(255,255,255,0.02)"/>
+  </g>
+
+  <!-- Composição: lâmina / forma geométrica (translúcida) -->
+  <!-- blade group: rotated thin rectangle with inner thin stroke line -->
+  <g transform="translate(140,58) rotate(-18 0 0)">
+    <!-- sem filtros: apenas opacidade e stroke -->
+    <rect x="0" y="0" width="680" height="72" rx="8"
+          fill="url(#bladeGrad)" class="blade" stroke="rgba(0,118,130,0.28)" stroke-width="1.6" />
+    <!-- linha de corte -->
+    <rect x="34" y="30" width="612" height="6" rx="3" fill="rgba(255,255,255,0.18)" />
+    <!-- leve sombra simulada com semitransparência (baixo custo visual) -->
+    <rect x="0" y="66" width="680" height="6" rx="3" fill="rgba(0,0,0,0.04)"/>
+  </g>
+
+  <!-- Texto principal (assegure margem para não ser cortado) -->
+  <g transform="translate(340,120)">
+    <!-- Title -->
+    <text x="0" y="0" class="title">ARQUÉTIPO <tspan fill="#00c7ff">A</tspan> — Estética Operacional</text>
+
+    <!-- Subtitle (posicionado abaixo com espaçamento explícito) -->
+    <text x="0" y="42" class="subtitle">Φ³ — Causalidade Estrutural</text>
+
+    <!-- Meta / rodapé leve dentro do painel (pequeno) -->
+    <text x="0" y="86" class="meta">SLE · v1.1 · License: CC BY-SA 4.0</text>
+  </g>
+
+  <!-- Selo / version badge no canto direito do painel -->
+  <g transform="translate(1020,70)">
+    <rect x="0" y="0" width="140" height="34" rx="8" fill="#e6fbff" stroke="rgba(0,163,184,0.08)"/>
+    <text x="70" y="22" text-anchor="middle" font-family="Inter, system-ui, Arial" font-size="12" fill="#026b70" font-weight="700">v1.1 · CC BY-SA</text>
+  </g>
+
+  <!-- Small decorative accent (right) -->
+  <g transform="translate(1100,36) rotate(8)">
+    <rect x="0" y="0" width="120" height="40" rx="8" fill="url(#bladeGrad)" opacity="0.92" />
+  </g>
+
+  <!-- Nota visual: small footer text inside panel bottom-left -->
+  <g transform="translate(72,260)">
+    <text x="0" y="0" class="meta">Aledev · 2025 · Estética Operacional — README v1.1</text>
+  </g>
+
+  <!-- Accessibility: invisible rect for margin safety (ensures text not clipped on some viewers) -->
+  <rect x="8" y="8" width="1264" height="344" fill="none" />
+
+</svg>
