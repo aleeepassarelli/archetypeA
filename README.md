@@ -185,9 +185,6 @@ Exemplo de diagrama:
   <br>
   <sub>Versão 1.1 · Estética Operacional · 2025 · Projeto Arte-Semântica</sub>
 </p>
-```
 
 ---
 
-Quer que eu gere também a **versão técnica em YAML** (estrutura base do arquétipo para o `A_Template.yaml`, com os mesmos campos deste README)?
-Posso criar um modelo padronizado com placeholders (`<...>`) e comentários explicativos compatíveis com esta versão 1.1.
