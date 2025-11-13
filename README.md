@@ -11,7 +11,7 @@
 ---
 
 <p align="center">
-  <img src="assets/banner_archetypeA.png" alt="Banner do Arquétipo A" width="800"/>
+  <img src="assets/banner_archetypeA.svg" alt="Banner do Arquétipo A" width="800"/>
 </p>
 
 ---
