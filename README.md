@@ -1,5 +1,4 @@
-# 🜂 **ARQUÉTIPO A** — Framework de Cognição Estética  
-
+---
 [![License](https://img.shields.io/badge/License-CC--BY--SA--4.0-green.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
 [![Language](https://img.shields.io/badge/Lang-Python_/_YAML-blue.svg)]()
