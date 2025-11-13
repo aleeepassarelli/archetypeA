@@ -180,12 +180,8 @@ Exemplo de diagrama:
 > — *Manifesto do Arquétipo A*
 
 ---
-
 <p align="center">
-  🜂  
-  <br>
-  <sub>Versão 1.1 · Estética Operacional · 2025 · Projeto Arte-Semântica</sub>
+  <img src="assets/banner_archetypeA_v2.svg" alt="Banner do Arquétipo A v2" width="800"/>
 </p>
-
 ---
 
