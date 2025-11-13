@@ -14,18 +14,17 @@
 </p>
 
 ---
-
 ## 📚 **ÍNDICE**
 
-1. [Introdução](#-1-introdução)  
-2. [Conceito](#-2-conceito)  
-3. [Objetivo](#-3-objetivo)  
-4. [Arquitetura](#-4-arquitetura-do-arquétipo-a)  
-5. [Taxonomia das Classes](#-5-taxonomia-das-classes)  
-6. [Formalização Algébrica](#-6-formalização-algébrica)  
-7. [Modo de Cognição](#-7-modo-de-cognição--cinto-de-ciclos)  
-8. [Imagens & Visualizações](#-8-imagens--visualizações)  
-9. [Créditos & Licença](#-9-créditos--licença)
+1. <a href="#-1-introdução" style="color:inherit;text-decoration:none;">Introdução</a>  
+2. <a href="#-2-conceito" style="color:inherit;text-decoration:none;">Conceito</a>  
+3. <a href="#-3-objetivo" style="color:inherit;text-decoration:none;">Objetivo</a>  
+4. <a href="#-4-arquitetura-do-arquétipo-a" style="color:inherit;text-decoration:none;">Arquitetura</a>  
+5. <a href="#-5-taxonomia-das-classes" style="color:inherit;text-decoration:none;">Taxonomia das Classes</a>  
+6. <a href="#-6-formalização-algébrica" style="color:inherit;text-decoration:none;">Formalização Algébrica</a>  
+7. <a href="#-7-modo-de-cognição--cinto-de-ciclos" style="color:inherit;text-decoration:none;">Modo de Cognição</a>  
+8. <a href="#-8-imagens--visualizações" style="color:inherit;text-decoration:none;">Imagens & Visualizações</a>  
+9. <a href="#-9-créditos--licença" style="color:inherit;text-decoration:none;">Créditos & Licença</a>
 
 ---
 
