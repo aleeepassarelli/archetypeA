@@ -168,6 +168,188 @@ O Arquétipo $\mathcal{A}$ é agora um **padrão cognitivo executável**. Por me
   
 ---  
   
+
+### 12. Formulação Algébrica Simplificada
+
+O ciclo 𝒞 pode ser expresso como composição de operadores:
+
+[  
+\mathcal{C}(\Phi, M, \mathcal{T}) = \mathcal{O}_n \circ \mathcal{O}_{n-1} \circ ... \circ \mathcal{O}_1 (\Phi, M, \mathcal{T})  
+]
+
+Cada operador atua como transformação de estado:
+
+[  
+\mathcal{O}_i : (\Phi_i, M_i, \Theta_i) \rightarrow (\Phi_{i+1}, M_{i+1})  
+]
+
+A execução completa do arquétipo é, portanto, uma **trajetória semântica** no espaço latente:  
+[  
+\Phi_0 \rightarrow \Phi_1 \rightarrow ... \rightarrow \Phi_n = \Psi  
+]
+
+---
+
+### Características-Chave
+
+- **Modularidade Cognitiva:** cada ciclo pode ser trocado dinamicamente (“cinto do bat-agente”).
+    
+- **Rastreabilidade:** cada operador gera um _trace_ completo de execução.
+    
+- **Parametrização Viva:** tensionadores modulam o “tom cognitivo” (empatia, rigor, abstração etc.).
+    
+- **Compatibilidade:** implementável em qualquer framework de agente semântico (Graphiti, LangChain, MCP).
+    
+
+---
+
+## 13. Modo de Cognição e Alternância de Ciclos (“Cinto de Ciclos”)
+
+### 13.1. Conceito Fundamental
+
+Cada **Arquétipo A** contém um conjunto de **Ciclos Cognitivos** ( \mathcal{C}_i ),  
+que representam modos distintos de raciocínio.
+
+[  
+\mathcal{C}_i = \langle \mathcal{O}_i, \mathcal{T}_i, \kappa_i \rangle  
+]
+
+onde:
+
+- ( \mathcal{O}_i ): conjunto de operadores (ações mentais elementares)
+    
+- ( \mathcal{T}_i ): vetor de tensão (intensidade e direção da atenção)
+    
+- ( \kappa_i ): função de coerência semântica (grau de harmonia entre intenção e resultado)
+    
+
+Um Arquétipo A é, portanto, um **sistema de alternância entre ciclos**:
+
+[  
+\mathcal{A} = \bigcup_i \mathcal{C}_i  
+]
+
+---
+
+### 13.2. Dinâmica de Execução
+
+A cognição evolui como um fluxo contínuo de estados latentes ( h_t ),  
+modulados por memória ( M_t ), tensão ( \mathcal{T} ),  
+e pela heurística de alternância ( \mathcal{H} ):
+
+[  
+h_{t+1} = \mathcal{O}_i(h_t, M_t, \mathcal{T}_i)  
+]
+
+A função de coerência é avaliada a cada passo:
+
+[  
+\kappa_t = f(h_t, \Phi, \Delta)  
+]
+
+onde:
+
+- ( \Phi ) é a intenção cognitiva (o “propósito” atual),
+    
+- ( \Delta ) é o domínio semântico (a cultura cognitiva ativa).
+    
+
+---
+
+### 13.3. Alternância de Ciclo (Heurística Latente)
+
+Quando a coerência ( \kappa_t ) cai abaixo de um limiar ( \tau ),  
+a heurística ( \mathcal{H} ) escolhe um novo ciclo cognitivo mais apropriado:
+
+[  
+\mathcal{C}_{t+1} = \mathcal{H}(\Phi, M_t, \Delta, \kappa_t, \mathcal{T}_t)  
+]
+
+Esse processo é análogo à **homeostase cognitiva**:  
+manter equilíbrio entre **divergência criativa** e **convergência analítica**.
+
+---
+
+### 13.4. Modo de Cognição
+
+Cada classe ( n ) define uma **geometria cognitiva** distinta —  
+um tipo de pensamento.
+
+|Classe ( n )|Nome|Função|Símbolo|
+|---|---|---|---|
+|3|Geração|Produzir o novo|△|
+|4|Estabilidade|Validar e estruturar|□|
+|5|Disrupção|Romper padrões|⭔|
+|6|Harmonia|Integrar opostos|⬡|
+|7|Transcendência|Elevar e sintetizar|⎔|
+
+O fluxo mental é, portanto, uma sequência dinâmica:
+
+[  
+\mathcal{C}_3 \rightarrow \mathcal{C}_4 \rightarrow \mathcal{C}_5 \rightarrow \mathcal{C}_6 \rightarrow \mathcal{C}_7  
+]
+
+Mas o sistema pode inverter, bifurcar ou saltar conforme o estado semântico:
+
+[  
+\mathcal{C}_{t+1} =  
+\begin{cases}  
+\mathcal{C}_4, & \text{se } \kappa_t < \tau \text{ (instabilidade)}\  
+\mathcal{C}_5, & \text{se } \mathcal{T}_t \text{ alta (tensão criativa)}\  
+\mathcal{C}_6, & \text{se } \Phi \text{ conflitiva (ambiguidade)}\  
+\mathcal{C}_7, & \text{se } \kappa_t \to 1 \text{ (síntese final)}  
+\end{cases}  
+]
+
+---
+
+### 13.5. Equilíbrio Cognitivo
+
+O objetivo do sistema é **maximizar a coerência cognitiva global**:
+
+[  
+\max_{\mathcal{C}, \mathcal{T}} \kappa(\Phi, M, \Delta)  
+]
+
+A condição de equilíbrio (estado sábio) ocorre quando:
+
+[  
+\frac{d\kappa}{dt} = 0  
+\quad \Rightarrow \quad  
+\mathcal{C}_{ativo} = \mathcal{C}_7  
+]
+
+Nesse ponto, o arquétipo alcança **transcendência operacional**:  
+um estado de síntese e estabilidade semântica.
+
+---
+
+### 13.6. Interpretação
+
+- O **Ciclo** é uma **função mental**.
+    
+- O **Tensionador** é um **parâmetro de emoção ou energia**.
+    
+- A **Heurística** é a **atenção executiva**.
+    
+- O **Domínio Semântico** é a **cultura cognitiva** que dá sentido.
+    
+- E o **Arquétipo A** é a **estrutura viva** que unifica todos eles.
+    
+
+---
+
+### 13.7. Síntese Final
+
+[  
+\boxed{  
+\Psi = \mathcal{H}\Big(\bigcup_i \mathcal{C}_i, \Phi, M, \Delta\Big)  
+}  
+]
+
+onde ( \Psi ) é o **fluxo de cognição micelial**,  
+um campo dinâmico que se autoorganiza entre forma (semântica) e estrutura (álgebra).
+
 ### Apêndice: Glossário Rápido  
   
 - **HDSA**: *High-Density Semantic Anchor* — conceito compacto e estável no espaço latente (ex: “Engenheiro Estoico”).  
@@ -184,3 +366,4 @@ Repositório: [https://github.com/aledev/archetype-a](https://github.com/aledev/
 Licença: CC BY-SA 4.0  
   
 ---
+
