@@ -1,4 +1,3 @@
-
 # [Título do Arquétipo]
 
 > “[Frase poética ou filosófica que capture a essência do arquétipo.]”
