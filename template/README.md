@@ -1,5 +1,5 @@
 rojeto Arquétipo $\mathcal{A}$  
-## Whitepaper Colaborativo – Vol. 1: *O Códice Cognitivo*  
+## Colaborativo – Vol. 1: *O Códice Cognitivo*  
   
 > *"Não somos donos do pensamento — somos seus jardineiros.  
 > O Arquétipo $\mathcal{A}$ é a grade que estrutura o jardim."*  
