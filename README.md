@@ -85,6 +85,8 @@ Cada instância do Arquétipo A é estruturada em um pacote YAML/JSON que define
 |`metadata`|Créditos, versão e rastreabilidade|
 
 > Essa estrutura permite interoperabilidade entre sistemas cognitivos modulares e modelos algébricos descritivos.
+---
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aleeepassarelli/archetype-a/blob/main/notebooks/Demo_Psicologo.ipynb)
 
 ---
 
