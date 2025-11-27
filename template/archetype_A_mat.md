@@ -1,4 +1,3 @@
-
 # Modelo Matemático Unificado para o **Arquétipo 𝒜** — Álgebra de Campo de Cognição
 
 Uma **formalização compacta, completa e utilizável** — mistura de geometria semântica (ECL), operadores algébricos para agentes/ciclos, dinâmicas de memória e regras de orquestração. Vou separar em definições, equações contínuas (campo), versão discreta (execução/engine) e observáveis/práticas. Sem código, só álgebra e instrução clara.
