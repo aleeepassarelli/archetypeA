@@ -99,6 +99,8 @@ Cada instância do Arquétipo A é estruturada em um pacote YAML/JSON que define
 |7|Heptágono|Transcendência|Modelos Reflexivos, Meditação|Sabedoria ↔ Inspiração|
 
 > A forma geométrica define o tipo e o alcance do processo cognitivo modelado.
+---
+![Taxonomia das Classes](assets/class_taxonomy.png)
 
 ---
 
@@ -144,6 +146,8 @@ Ele permite alternar entre padrões cognitivos distintos conforme a densidade e 
 |Transcendente|🔮|Integração|Síntese simbólica, insight, coesão de sistemas|
 
 > O sistema ajusta sua operação cognitiva de forma contextual, mantendo coerência entre intenção e forma.
+---
+![Modos de Cognição](assets/cognition_modes.png)
 
 ---
 
