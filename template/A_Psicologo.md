@@ -1,6 +1,6 @@
 📄 tests/test_alquimia.py
 Python
-
+```
 import unittest
 import numpy as np
 from archetype_a.engine import run_archetype
@@ -72,3 +72,4 @@ class TestAlchemicalCycle(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+```
