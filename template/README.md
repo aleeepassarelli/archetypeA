@@ -361,9 +361,9 @@ um campo dinâmico que se autoorganiza entre forma (semântica) e estrutura (ál
 ---  
   
 **Contato**:  
-Aledev (lead researcher): [seu e-mail ou link]  
-Repositório: [https://github.com/aledev/archetype-a](https://github.com/aledev/archetype-a)  
-Licença: CC BY-SA 4.0  
+Aledev 
+Repositório: [Archetype-A](https://github.com/aleeepassarelli/archetypeA/)  
+Licença: MIT
   
 ---
 
